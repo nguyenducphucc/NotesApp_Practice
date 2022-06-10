@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.note {
+  list-style-type: none;
+  background-color: aquamarine;
+  padding: 5px 0px 5px 0;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 8px 0 6px 10px;
+  margin-bottom: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.note .importanceToggle {
+  border: 1px solid rgb(49, 49, 49);
+  background-color: aqua;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.note .importanceToggle:hover {
+  background-color: rgb(1, 211, 211);
+}
+
+.note .importanceToggle:active {
+  background-color: rgb(131, 255, 255);
+}
+
+.error {
+  background-color: rgb(255, 51, 51);
+  font-size: 19px;
+  color: white;
+  padding: 10px 0 10px 25px;
+  border-radius: 5px;
+  margin: 0 0 8px 0;
 }
